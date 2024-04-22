@@ -1,0 +1,323 @@
+{
+    "Title": "The Mansion Escape",
+    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "Start",
+    "Locations": {
+        "Start": {
+            "Body": "You wake up on the cold floor. You look around to see where you are. You realize you are in a dimly lit room.",
+            "Choices": [
+                {
+                    "Text": "Look around the room",
+                    "Target": "Look around the room"
+                }
+            ]
+        },
+        "Look around the room": {
+            "Body": "You look around and there are many items to look at.",
+            "Choices": [
+                {
+                    "Text": "Radio",
+                    "Target": "Radio"
+                },
+                {
+                    "Text": "Matchbox",
+                    "Target": "Matchbox"
+                },
+                {
+                    "Text": "Book",
+                    "Target": "Book"
+                },
+                {
+                    "Text": "Key",
+                    "Target": "Key"
+                },
+                {
+                    "Text": "Picture",
+                    "Target": "Picture"
+                },
+                {
+                    "Text": "Go out the door",
+                    "Target": "Go out the door"
+                }
+            ]
+        },
+        "Radio": {
+            "Body": "An old Radio",
+            "Choices": [
+                {
+                    "Text": "On",
+                    "Target": "On"
+                },
+                {
+                    "Text": "Off",
+                    "Target": "Off"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Look around the room"
+                }
+            ]
+        },
+        "On": {
+            "Body": "Turn up volume"
+        },
+        "On1": {
+            "Body": "Welcome to 99.5 fm...as....run....fast"
+        },
+        "On2": {
+            "Body": "Welcome to 99.6 fm...as....run....fast"
+        },
+        "On3": {
+            "Body": "Welcome to 99.7 fm...as....run....fast"
+        },
+        "Off": {
+            "Body": "Radio is Off"
+            
+        },
+        "Picture": {
+            "Body": "Here is a picture of you with some child. You turn the picture over and see a message saying, \"Ill find you\""
+        },
+        "Matchbox": {
+            "Body": "A matchbox with a couple matches!",
+            "Choices": [
+                {
+                    "Text": "Pick up matchbox",
+                    "Target": "Pick up matchbox"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Look around the room"
+                }
+            ]
+        },
+        "Pick up matchbox": {
+            "Body": "You picked up the matches"
+        },
+        "Book": {
+            "Body": "Here is a book titled right or wrong....."
+        },
+        "Key": {
+            "Body": "Here is a golden key",
+            "Choices": [
+                {
+                    "Text": "Pick up the key",
+                    "Target": "Pick up the key"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Look around the room"
+                }
+            ]
+        },
+        "Pick up the key": {
+            "Body": "You picked up the key"
+        },
+        "Go out the door": {
+            "Body": "You walk through the door and open into a large hall. There is a large chandelier looming above you. All around are so many doors. There is a staircase that leads to more doors upstairs. There is one big door that seems like an exit. You realize you are in a big mansion.",
+            "Choices": [
+                {
+                    "Text": "Leave out the main door and end this",
+                    "Target": "Leave out the main door and end this"
+                },
+                {
+                    "Text": "Pick a door",
+                    "Target": "Pick a door"
+                },
+                {
+                    "Text": "Walk Upstairs",
+                    "Target": "Walk Upstairs"
+                }
+            ]
+        },
+        "Leave out the main door and end this": {
+            "Body": "You attempt to leave out the main door but it turns out it leads you back to the room you were just in. This confuses you because there is no way two doors lead to the same room.",
+            "Choices": [
+                {
+                    "Text": "Look around the room",
+                    "Target": "Look around the room"
+                }
+            ]
+        },
+        "Pick a door": {
+            "Body": "You are faced by many doors and have to choose one to go through. Which door do you choose?",
+            "Choices": [
+                {
+                    "Text": "Door 1",
+                    "Target": "Door 1"
+                },
+                {
+                    "Text": "Door 2",
+                    "Target": "Door 2"
+                },
+                {
+                    "Text": "Door 3",
+                    "Target": "Door 3"
+                }
+            ]
+        }
+        ,
+        "Walk Upstairs": {
+            "Body": "You come across many doors at the top of the stairs. Which door do you go through?",
+            "Choices": [
+                {
+                    "Text": "Door 1",
+                    "Target": "Door 1"
+                },
+                {
+                    "Text": "Door 2",
+                    "Target": "Door 2"
+                },
+                {
+                    "Text": "Door 3",
+                    "Target": "Door 3"
+                }
+            ]
+        },
+        "Door 1": {
+            "Body": "You walk through the first door into a dark room. You remember that you saw a matchbox earlier. Little did you know that there were hundreds of little eyes watching you from the ceiling......",
+            "Choices": [
+                {
+                    "Text": "Light the Match",
+                    "Target": "Lighting the Match"
+                },
+                {
+                    "Text": "Feel your way to the other side of the room",
+                    "Target": "Feel your way to the other side of the room"
+                }
+            ]
+        },
+        "Lighting the Match": {
+            "Body": "Lighting the Match"
+        },
+        "Light the Match": {
+            "Body": "The moment you light the match all the bats fly down and start to attack you. You end up tripping and falling and hitting your head. ",
+            "Choices": [
+                {
+                    "Text": "Start Over",
+                    "Target": "Start"
+                }
+            ]
+        },
+        "Feel your way to the other side of the room": {
+            "Body": "You put your hands out and slowly walk towards the other side. You bump into a table of some sort and the noise makes the bats start to wake up. You stop for a couple of seconds before continuing. You reach the wall and find a door knob! ",
+            "Choices": [
+                {
+                    "Text": "Go Through",
+                    "Target": "Go Through"
+                }
+            ]
+        },
+        "Door 2": {
+            "Body": "You enter the door to a large library. There are tall shelves that are lined with books in a neat and organized fashion. In the distance, you see a little kid peeking from behind a shelf. You run towards the kid but it vanishes as you get close. In shock, you slowly walk backward. As you are taking steps back, the child reappears in the same position as if it never moved. With a giggle, the child starts to run. You follow and see it go through a door on one side. As you get closer to the door it disappears. You hear a little giggle behind you and turns out the child is at a door behind you on the other side of the room. You finally figure it out. Only when the ghost child is at the door is when it can be used. The only issue is when you get close the child goes through and shows up on the other end of the room. ",
+            "Choices": [
+                {
+                    "Text": "Chase after the kid",
+                    "Target": "Chase after the kid"
+                },
+                {
+                    "Text": "Trick the kid",
+                    "Target": "Trick the kid"
+                }
+            ]
+        },
+        "Chase after the kid": {
+            "Body": "You chase after the kid over and over again, but unfortunately, you get the same result. The child disappears every time you get close. Eventually, you get tired of this and want to leave but you can’t find the original door you walked in through. Again you give it another try to chase the kid down. After another defeat, you become exhausted and lie on the ground unable to move. The child slowly approaches you and covers your eyes",
+            "Choices": [
+                {
+                    "Text": "Wake Up",
+                    "Target": "Start"
+                }
+            ]
+        },
+        "Trick the kid": {
+            "Body": "You decide to trick the ghost child. You realize that if it knows you are close it disappears with the door. You decide to run towards to child and right as it turns around you turn around yourself and run to the other side where it would reappear with a different door. You are successful and a door appears in front of you. When you get close the kid seems to be caught by surprise and you see the door open.",
+            "Choices": [
+                {
+                    "Text": "Go Through",
+                    "Target": "Go Through"
+                }
+            ]
+        },
+        "Door 3": {
+            "Body": "You walk through the door and end up in a room full of money. You see hundred-dollar bills everywhere. You are surprised because you never thought you would see this much money in cash in one room. ",
+            "Choices": [
+                {
+                    "Text": "Take as much money as you can",
+                    "Target": "Money"
+                },
+                {
+                    "Text": "Keep Going",
+                    "Target": "Next door"
+                }
+            ]
+        },
+        "Money": {
+            "Body": "You grab as much money as you can and head back out the same door you came through. As you open the door you realize it locked behind you. You stuff the money into your pockets and suddenly you hear a loud bang. You faintly smell smoke. Suddenly all the cash in the room lights on fire. You look down and your pants are on fire as well. You close your eyes in fear.",
+            "Choices": [
+                {
+                    "Text": "Start Over",
+                    "Target": "Start"
+                }
+            ]
+        },
+        "Next door": {
+            "Body": "You decide to leave the money and look for a way out. You search around the room throwing money aside looking for clues or an exit. You topple over a wall of money and behind it is a door!",
+            "Choices": [
+                {
+                    "Text": "Open the door",
+                    "Target": "Locked door"
+                }
+            ]
+        },
+        "Locked door": {
+            "Body": "The door is locked"
+        },
+        "Open up the door": {
+            "Body": "You use the key to open the door",
+            "Choices": [
+                {
+                    "Text": "Go Through",
+                    "Target": "Go Through"
+                }
+            ]
+        },
+
+        
+        "Go Through": {
+            "Body": "You jump through the door and close it behind you quickly. Suddenly you are blinded by bright light.",
+            "Choices": [
+                {
+                    "Text": "Open your eyes",
+                    "Target": "Open your eyes"
+                }
+            ]
+        },
+        "Open your eyes": {
+            "Body": "You end up in a huge white room with nothing in it. This is a complete jump from the dark and dim lighting of the rest of the mansion. In the distance, you see a little door. There seems to be nothing else in the room.",
+            "Choices": [
+                {
+                    "Text": "Go through the little door",
+                    "Target": "Go through the little door"
+                }
+            ]
+        },
+        "Go through the little door": {
+            "Body": "You walk in and there is a room full of TV screens all over the wall. You see a little man at the desk in front of it. You yell out, \"Who are you?\". The man responds, \"I am the game master.\" He says, \"You were not the only one stuck in this mansion. There are many people who woke up in the same situation as you and are faced with the same things you faced. I created this game to see how many people can survive and reach me at the end of the game. Every time a mistake is made, I make sure every player wakes up with another chance. That is why you felt like you had already lived over and over again. You are the only one who has made it this far and now I have to erase your memory again. I congratulate you on completing this mansion\"",
+            "Choices": [
+                {
+                    "Text": "Wake Up",
+                    "Target": "Wake Up"
+                }
+            ]
+        },
+        "Wake Up": {
+            "Body": "You wake up in your bed. You are surrounded in sweat. Was it all a dream?",
+            "Choices": [
+                {
+                    "Text": "Play Again",
+                    "Target": "Start"
+                }
+            ]
+        }
+    }
+}
